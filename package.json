@@ -1,0 +1,19 @@
+{
+  "name": "backend-dicoding",
+  "version": "1.0.0",
+  "description": "Isinya proses belajar Back-End JS GCP Hehehehe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestagi/backend.git"
+  },
+  "author": "Muhamad Bestagi Romadhon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bestagi/backend/issues"
+  },
+  "homepage": "https://github.com/bestagi/backend#readme"
+}
