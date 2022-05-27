@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const readableStream = fs.createReadStream("./readable-stream/article.txt", {
+const readableStream = fs.createReadStream("./filesystem/readable-stream/article.txt", {
     highWaterMark: 10
 });
 
