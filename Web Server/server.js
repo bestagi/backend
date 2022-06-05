@@ -1,7 +1,8 @@
 const http = require('http')
 
 const requestListener = (request, respond) => {
-  respond.setHeader('Content-Type', 'text/html')
+  respond.setHeader('Content-Type', 'application/json')
+  respond.setHeader('X-Powered-By', 'NodeJS')
   const { url, method } = request
 
   if (url === '/') {
