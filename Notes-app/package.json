@@ -1,0 +1,32 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestagi/backend.git"
+  },
+  "author": "Bestagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bestagi/backend/issues"
+  },
+  "homepage": "https://github.com/bestagi/backend#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
+}
