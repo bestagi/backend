@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bestagi/backend/issues"
   },
-  "homepage": "https://github.com/bestagi/backend#readme"
+  "homepage": "https://github.com/bestagi/backend#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
 }
